@@ -15,7 +15,7 @@ import java.util.Map;
 public class JwtUtility {
 
     private String SECRET_KEY = "secret";
-    private final long expiry_time= 1L*24*60*60*1000;
+    private final long expiry_time= 1*24*60*60*1000;
 
 
     public String extractUsername(String token) {
